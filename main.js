@@ -81,3 +81,16 @@ ScrollReveal().reveal(".download__links", {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+// New ScrollReveal for the Contact Us section
+ScrollReveal().reveal(".contact__container .section__header", {
+  ...scrollRevealOption,
+});
+ScrollReveal().reveal(".contact__container p", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+ScrollReveal().reveal(".whatsapp__link", {
+  ...scrollRevealOption,
+  delay: 1000,
+});

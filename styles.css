@@ -414,6 +414,43 @@ nav {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* New Contact Us Section Styles */
+.contact__container {
+  text-align: center;
+}
+
+.contact__container .contact__content {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.contact__container .section__header {
+  margin-bottom: 1rem;
+}
+
+.contact__container p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  line-height: 1.75rem;
+}
+
+.whatsapp__btn {
+  background-color: #25d366; /* WhatsApp Green */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-inline: auto;
+}
+
+.whatsapp__btn:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp__btn i {
+  font-size: 1.25rem;
+}
+/* End of New Contact Us Section Styles */
+
 .footer__container {
   display: grid;
   gap: 4rem 2rem;
